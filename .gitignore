@@ -1,1 +1,14 @@
-.idea
+## Terraform temp files
+**/terraform.*
+**/.terraform
+**/.terraform.tfstate.lock.info
+**/*.tfvars
+deployments/**/.terraform.lock.hcl
+
+# Vim
+**/*.swp
+
+#intellij
+.idea/
+
+**/.DS_Store
